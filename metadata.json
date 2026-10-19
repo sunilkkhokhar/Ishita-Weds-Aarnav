@@ -1,0 +1,8 @@
+{
+  "name": "Ishita & Harnav Wedding Invitation & 3D Royal Mandap",
+  "description": "Interactive Royal Indian Wedding Celebration and Digital Invitation for Ishita and Aarnav with 3D Procedural Mandap, ceremonial events schedule, RSVP, and guestbook.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-royal {
+    font-family: 'Cinzel', serif;
+  }
+  .font-script {
+    font-family: 'Great Vibes', cursive;
+  }
+  .font-body-royal {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-hindi {
+    font-family: 'Rozha One', 'Yatra One', 'Cormorant Garamond', serif;
+  }
+}
+
+/* Custom Royal Indian Wedding Theme Utilities */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fce085 0%, #d4af37 40%, #aa771c 80%, #f7d070 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-image: linear-gradient(135deg, #fce085, #d4af37, #8c6218, #f5d77f) 1;
+}
+
+.bg-royal-card {
+  background: radial-gradient(circle at 50% 30%, #fffdf7 0%, #fbf6ec 70%, #f5ecd6 100%);
+}
+
+.bg-royal-crimson {
+  background: radial-gradient(circle at 50% 20%, #4a0d1b 0%, #2b040e 70%, #150106 100%);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(20, 15, 12, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.7);
+}
